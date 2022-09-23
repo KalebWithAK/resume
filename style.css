@@ -88,3 +88,12 @@ footer {
   margin-top: 1rem;
   text-align: center;
 }
+
+@media(max-width: 479px) {
+  header, main, footer {
+    width: 100%;
+  }
+  p {
+   max-width: 100%;
+}
+}
