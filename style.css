@@ -1,101 +1,97 @@
-body, span {
+* {
+  padding: 0;
+  margin: 0;
+  height: fit-content;
+}
+
+body {
   font-family: 'Inter', 'Arial', Courier, monospace;
   font-size: 20px;
   font-weight: 400;
-}
-body * {
-  margin: 0;
-}
-
-header, main, footer {
-  max-width: 80%;
   margin: auto;
+  width: 68vw;
 }
 
-h1, h2, nav {
-  font-family: 'Noto Sans JP', sans-serif;
+header, footer {
+  padding: 1rem 0;
 }
-h2 {
-  font-size: 24px;
-}
-h3 {
-  font-size: 20px;
-  max-width: 700px;
-  position: relative;
-}
-
-a {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-
 
 header {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid gray;
+  border-bottom: solid 2px gray;
 }
 
-header h1 {
+h1 {
   margin-right: auto;
-  font-size: 50px;
-}
-
-nav {
-  font-size: 20px;
-}
-nav * {
-  margin: 1px;
 }
 
 article {
-  width: 800px;
-  margin: 1rem auto;
+  margin: 2rem 0;
+}
+article h2 {
+  margin: 0.5rem 0;
+}
+article h3, article h4 {
+  margin: 0.25rem 0;
+  position: relative;
 }
 
 article.education {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.5fr 1fr;
+  grid-template-rows: fit-content fit-content;
 }
 article.education h2 {
-  grid-column: 1/3;
+  grid-column: 1 / 3;
+  grid-row: 1;
 }
-article.education ul li {
-  position: relative;
+
+.date {
+  color: gray;
+  font-size: 1.25rem;
+  font-weight: lighter;
 }
 span.date {
   position: absolute;
-  right: 0px;
+  right: 0;
+}
+
+li {
+  margin-left: 1.5rem;
+}
+
+a, a:visited {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  color: blueviolet;
+  text-decoration: underline;
 }
 
 
 article.related-experience section {
-  margin: 0.5rem 0;
-  width: 750px;
-  position: relative;
-}
-
-article.related-experience h3, article.employment h3 {
-  width: 650px;
+  margin: 1rem 0;
 }
 
 footer {
-  border-top: solid 1px gray;
-  padding-top: 0.5rem;
-  margin-top: 1rem;
+  border-top: solid 2px gray;
+  width: 100%;
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-  header, footer {
-    width: 100%;
+@media only screen and (max-width: 1400px) {
+  /*body {
+    background: #121212;
+  }*/
+
+  strong.date {
+    display: block;
   }
 
   span.date {
-    display: block;
     position: relative;
+    display: block;
   }
 }
