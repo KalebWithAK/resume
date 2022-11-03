@@ -88,3 +88,14 @@ footer {
   margin-top: 1rem;
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  header, footer {
+    width: 100%;
+  }
+
+  span.date {
+    display: block;
+    position: relative;
+  }
+}
