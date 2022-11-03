@@ -9,7 +9,7 @@ body {
   font-size: 20px;
   font-weight: 400;
   margin: auto;
-  width: 68vw;
+  max-width: 68vw;
 }
 
 header, footer {
@@ -82,9 +82,9 @@ footer {
 }
 
 @media only screen and (max-width: 1400px) {
-  /*body {
-    background: #121212;
-  }*/
+  body {
+    max-width: 90vw;
+  }
 
   strong.date {
     display: block;
