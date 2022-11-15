@@ -6,19 +6,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kaleb Dean</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  <!--<link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">-->
 
-  <link rel='stylesheet' href='./style.css' type='text/css' />
+  <link rel='stylesheet' href='./styles/light.css' type='text/css' />
+  <link rel='stylesheet' href='./styles/dark.css' type='text/css' />
+  <script src='./script.js'></script>
 </head>
 <body>
   <header>
     <h1>Kaleb Dean</h1>
 
-    <nav>
+    <div class='toggle-container'>
+      <p class='light-label'>Light</p>
+
+      <label class='switch'>
+          <input type='checkbox'>
+          <span class='slider'></span>
+      </label>
+
+      <p class='dark-label'>Dark</p>
+  </div>
+
+    <contact>
       <a href='mailto:kad9603@gmail.com'>kad9603@gmail.com</a>
       <p>(980) 298 - 7018</p>
       <p>Charlotte, NC</p>
-    </nav>
+    </contact>
   </header>
   <main>
     <article class='objective'>
@@ -34,8 +47,8 @@
     <article class='technical-skills'>
       <h2>Technical Skills</h2>
       <ul>
-        <li>HTML, CSS, and Javascript utilized to build the projects mentioned above</li>
         <li>React, Python, and MySql utilized to build personal projects</li>
+        <li>HTML, CSS, and Javascript utilized to build the projects mentioned below</li>
       </ul>
     </article>
 
