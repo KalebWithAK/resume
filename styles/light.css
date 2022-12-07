@@ -32,6 +32,8 @@ header {
   gap: 2rem;
 }
 
+
+/* dark/light theme toggle */
 div.toggle-container {
   display: flex;
   align-items: center;
@@ -97,9 +99,14 @@ label.switch > input:checked + span.slider::before {
   -ms-transform: translateX(1.5rem);
   transform: translateX(1.5rem);
 }
+/* end dark/light theme toggle */
 
 h1, h2 {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h3 {
+  max-width: 
 }
 
 article {
@@ -129,8 +136,7 @@ article.education h2 {
   font-weight: lighter;
 }
 span.date {
-  position: absolute;
-  right: 0;
+  position: block;
 }
 
 li {
@@ -148,7 +154,8 @@ a:hover {
 
 
 article.related-experience section {
-  margin: 1rem 0;
+  display: grid;
+  
 }
 
 footer {
