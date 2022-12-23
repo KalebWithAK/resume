@@ -57,8 +57,9 @@ body.dark p.dark-label {
 
 label.switch {
   position: relative;
-  width: 60px;
-  height: 2rem;
+  width: 3rem;
+  height: 1rem;
+  padding: 0.25rem;
   display: inline-block;
 }
 label.switch input {
@@ -95,9 +96,9 @@ input:checked + span.slider {
 }
 label.switch > input:checked + span.slider::before {
   background-color: #2b283a;
-  -webkit-transform: translateX(1.5rem);
-  -ms-transform: translateX(1.5rem);
-  transform: translateX(1.5rem);
+  -webkit-transform: translateX(2rem);
+  -ms-transform: translateX(2rem);
+  transform: translateX(2rem);
 }
 /* end dark/light theme toggle */
 
@@ -155,7 +156,11 @@ a:hover {
 
 article.related-experience section {
   display: grid;
-  
+  margin-bottom: 1rem;
+  grid-template-areas: 'title date', 'desc desc', 'link link'
+}
+article.related-experience section h3 {
+  grid-area: 'title';
 }
 
 footer {
