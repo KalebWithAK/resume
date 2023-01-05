@@ -106,10 +106,6 @@ h1, h2 {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-h3 {
-  max-width: 
-}
-
 article {
   margin: 2rem 0;
 }
@@ -188,6 +184,9 @@ footer {
   body {
     max-width: 98vw;
     margin: 1vw;
-    font-size: 0.7rem;
+  }
+
+  span.date {
+    font-size: 0.75rem;
   }
 }
