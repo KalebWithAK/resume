@@ -107,7 +107,7 @@ h1, h2 {
 }
 
 article {
-  margin: 2rem 0;
+  margin: 1.5rem 0;
 }
 article h2 {
   margin: 0.5rem 0;
@@ -129,10 +129,11 @@ article.education h2 {
 
 .date {
   color: #5d5b5b;
-  font-size: 1rem;
+  font-size: 12px;
   font-weight: lighter;
 }
 span.date {
+  font-size: 12px;
   position: block;
 }
 
@@ -163,19 +164,4 @@ footer {
   border-top: solid 2px gray;
   width: 100%;
   text-align: center;
-}
-
-@media only screen and (max-width: 1400px) {
-  body {
-    max-width: 90vw;
-  }
-
-  strong.date {
-    display: block;
-  }
-
-  span.date {
-    position: relative;
-    display: block;
-  }
 }
