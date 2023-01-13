@@ -10,7 +10,7 @@
 
 body {
   font-family: 'Inter', 'Arial', Courier, monospace;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 400;
   margin: auto;
   max-width: 68vw;
@@ -128,8 +128,8 @@ article.education h2 {
 }
 
 .date {
-  color: gray;
-  font-size: 1.25rem;
+  color: #5d5b5b;
+  font-size: 1rem;
   font-weight: lighter;
 }
 span.date {
@@ -177,16 +177,5 @@ footer {
   span.date {
     position: relative;
     display: block;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  body {
-    max-width: 98vw;
-    margin: 1vw;
-  }
-
-  span.date {
-    font-size: 0.75rem;
   }
 }
