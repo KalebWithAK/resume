@@ -10,7 +10,7 @@
 
 body {
   font-family: 'Inter', 'Arial', Courier, monospace;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
   margin: auto;
   max-width: 68vw;
@@ -20,7 +20,7 @@ body {
 }
 
 header, footer {
-  padding: 1rem 0;
+  padding: 0.25rem 0;
   width: 100%;
 }
 
