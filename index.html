@@ -10,7 +10,7 @@
 
   <link rel='stylesheet' href='./styles/light.css' type='text/css' />
   <link rel='stylesheet' href='./styles/dark.css' type='text/css' />
-  <script src='./script.js'></script>
+  <script defer src='./script.js'></script>
 </head>
 <body>
   <header>
@@ -29,18 +29,18 @@
     </div>
     -->
 
-    <contact>
-      <a href='mailto:kad9603@gmail.com'>kad9603@gmail.com</a>
-      <p>(980) 298 - 7018</p>
-      <p>Charlotte, NC</p>
-    </contact>
+    <ul className='contact'>
+      <li><img src='./images/mail.png' alt='mail icon'><a href='mailto:kad9603@gmail.com'>kad9603@gmail.com</a></li>
+      <li><img src='./images/phone.png' alt='phone icon'><a href='tel:9802987018'>(980) 298 - 7018</a></li>
+      <li><img src='./images/location.png' alt='location icon'><p>Charlotte, NC</p></li>
+    </ul>
   </header>
   <main>
     <article class='objective'>
       <h2>Objective</h2>
       <p>
-        I am currently a Junior Computer Science major seeking internship 
-        opportunities in software engineering with a focus on web or mobile 
+        I am a Junior Computer Science major an internship 
+        in software engineering with a focus on web or mobile 
         application development. My strengths include being a self-motivated learner, 
         communication skills, collaboration, and problem solving.
       </p>
@@ -117,6 +117,16 @@
       </ul>
     </article>
   </main>
-  <!--<footer>This page was designed and developed by Kaleb Dean</footer>-->
+  
+  <footer>
+    <p>This page was built by <a href="https:kalebwithak.github.io">Kaleb Dean</a> using HTML and CSS</p>
+
+    <ul>
+
+      <li><a target="_blank" href="https://icons8.com/icon/85059/phone">Phone</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+      <li><a target="_blank" href="https://icons8.com/icon/85467/mail">Mail</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+      <li><a target="_blank" href="https://icons8.com/icon/88172/map-pin">Map Pin</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+    </ul>
+  </footer>
 </body>
 </html>
