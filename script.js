@@ -12,6 +12,11 @@ function formatPdf() {
 }
 
 function downloadPdf() {
-  const element = document.querySelector("div.content")
-  html2pdf().from(element).save()
+  const element = document.getElementById("content")
+  const options = {
+    filename: "Kaleb-Dean.pdf",
+    margin: [0, 1]
+  }
+
+  html2pdf().set(options).from(element).save()
 }
