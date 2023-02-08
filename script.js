@@ -1,17 +1,17 @@
-/*window.onload = () => {
-  const toggle = document.querySelector('input')
-  toggle.addEventListener('click', (e) => toggleTheme(e.target.checked))
-}*/
+const pdf_button = document.querySelector("button.pdf")
 
-function toggleTheme(dark_theme) {
-  if (dark_theme) {
-    document.body.className = 'dark'
-  }
+pdf_button.addEventListener("click", (e) => {
+  e.preventDefault()
 
-  else {
-    document.body.className = ''
-  }
+  formatPdf()
+  downloadPdf()
+})
+
+function formatPdf() {
+  
 }
 
-
-// TODO - dark theme
+function downloadPdf() {
+  const element = document.querySelector("div.content")
+  html2pdf().from(element).save()
+}

@@ -1,132 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kaleb Dean</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaleb Dean</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
 
-  <link rel='stylesheet' href='./styles/light.css' type='text/css' />
-  <link rel='stylesheet' href='./styles/dark.css' type='text/css' />
-  <script defer src='./script.js'></script>
-</head>
-<body>
-  <header>
-    <h1>Kaleb Dean</h1>
+    <link rel='stylesheet' href='./styles/light.css' type='text/css' />
+    <link rel='stylesheet' href='./styles/dark.css' type='text/css' />
 
-    <!--
-    <div class='toggle-container'>
-      <p class='light-label'>Light</p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src='./script.js'></script>
+  </head>
+  <body>
+    <div class="content">
+      <header>
+        <h1>Kaleb Dean</h1>
 
-      <label class='switch'>
-          <input type='checkbox'>
-          <span class='slider'></span>
-      </label>
+        <!--
+        <div class='toggle-container'>
+          <p class='light-label'>Light</p>
 
-      <p class='dark-label'>Dark</p>
+          <label class='switch'>
+              <input type='checkbox'>
+              <span class='slider'></span>
+          </label>
+
+          <p class='dark-label'>Dark</p>
+        </div>
+        -->
+
+        <ul className='contact'>
+          <li><img src='./images/mail.png' alt='mail icon'><a href='mailto:kdean15@uncc.edu'>kdean15@uncc.edu</a></li>
+          <li><img src='./images/phone.png' alt='phone icon'><a href='tel:9802987018'>(980) 298 - 7018</a></li>
+          <li><img src='./images/location.png' alt='location icon'><p>Charlotte, NC</p></li>
+        </ul>
+      </header>
+      <main>
+        <article class='objective'>
+          <h2>Objective</h2>
+          <p>
+            I am a Junior Computer Science major an internship 
+            in software engineering with a focus on web or mobile 
+            application development. My strengths include being a self-motivated learner, 
+            communication skills, collaboration, and problem solving.
+          </p>
+        </article>
+
+        <article class='technical-skills'>
+          <h2>Technical Skills</h2>
+          <ul>
+            <li>React, Python, and MySql utilized to build personal projects</li>
+            <li>HTML, CSS, and Javascript utilized to build the projects mentioned below</li>
+          </ul>
+        </article>
+
+        <article class='education'>
+          <h2>Education</h2>
+
+          <section>
+            <h3>Computer Science B.S.</h3>
+            <h4> Software Engineering Concentration</h4>
+            <p>Anticipated Completion: <strong class='date'>Spring 2024</strong></p>
+          </section>
+
+          <ul>
+            <li>
+              <p>University of North Carolina at Charlotte</p>
+              <p class='date'>2020 - Present</p>
+            </li>
+            
+            <li>
+              <p>High Point University</p>
+              <p class='date'>2019 - 2020</p>
+            </li> 
+          </ul>
+        </article>
+
+        <article class='related-experience'>
+          <h2>Projects and Related Experience</h2>
+          <section>
+            <h3>Kalebwithak.github.io</h3>
+            <p>A portfolio site to showcase my projects, skills, and experience.</p>
+            <a href="https://kalebwithak.github.io/">https://kalebwithak.github.io</a>
+          </section>
+
+          <section>
+            <h3>Xavier Austin Group <span class='date'>Feb 11, 2022</span></h3>
+            <p>A landing page for Xavier Austin Group LLC, a business leadership consulting company.</p>
+            <a href='https://kalebwithak.github.io/xavieraustingroup/'>https://kalebwithak.github.io/xavieraustingroup/</a>
+          </section>
+
+          <!--<section>
+            <h3>Web Application Design and Development Final Project UNC Charlotte <span class='date'>Dec 10, 2021</span></h3>
+            <p>A website to showcase the Coalition of 100 Black Women at UNC Charlotte.</p>
+            <a href='https://kalebwithak.github.io/100bwuncc/'>https://kalebwithak.github.io/100bwuncc/</a>
+          </section>-->
+
+          <section>
+            <h3>South Meck TSA <span class='date'>Sep 28, 2021</span></h3>
+            <p>An online flier which raised awareness for South Mecklenburg High School’s TSA club.</p>
+            <a href='https://kalebwithak.github.io/southmecktsa/'>https://kalebwithak.github.io/southmecktsa/</a>
+          </section>
+
+          <section>
+            <h3>High Point University - Computer Science Tutor <span class='date'>Spring 2020</span></h3>
+            <p>I assisted students with understanding object oriented programming concepts in order to complete lab assignments and projects.</p>
+          </section>
+
+          <section>
+            <h3>Kravin Kitchen - Intern <span class='date'>Winter 2020</span></h3>
+            <p>Learned about front-end javascript frameworks to help facilitate the creative process during development.</p>
+          </section>
+        </article>
+
+        <article class='employment'>
+          <h2>Part Time Employment</h2>
+          <h3>Sales Associate at Target <span class='date'>August 2021 - Present</span></h3>
+          <ul>
+            <li>Relied upon for expertise in multiple positions</li>
+            <li>Used expertise, leadership, and communication skills to train employees</li>
+          </ul>
+        </article>
+      </main>
+
     </div>
-    -->
+      
+    <footer>
+      <button class="pdf">Download as PDF</button>
 
-    <ul className='contact'>
-      <li><img src='./images/mail.png' alt='mail icon'><a href='mailto:kad9603@gmail.com'>kad9603@gmail.com</a></li>
-      <li><img src='./images/phone.png' alt='phone icon'><a href='tel:9802987018'>(980) 298 - 7018</a></li>
-      <li><img src='./images/location.png' alt='location icon'><p>Charlotte, NC</p></li>
-    </ul>
-  </header>
-  <main>
-    <article class='objective'>
-      <h2>Objective</h2>
-      <p>
-        I am a Junior Computer Science major an internship 
-        in software engineering with a focus on web or mobile 
-        application development. My strengths include being a self-motivated learner, 
-        communication skills, collaboration, and problem solving.
-      </p>
-    </article>
-
-    <article class='technical-skills'>
-      <h2>Technical Skills</h2>
-      <ul>
-        <li>React, Python, and MySql utilized to build personal projects</li>
-        <li>HTML, CSS, and Javascript utilized to build the projects mentioned below</li>
-      </ul>
-    </article>
-
-    <article class='education'>
-      <h2>Education</h2>
-
-      <section>
-        <h3>Computer Science B.S.</h3>
-        <h4> Software Engineering Concentration</h4>
-        <p>Anticipated Completion: <strong class='date'>Spring 2024</strong></p>
-      </section>
+      <p>This page was built by <a href="https://kalebwithak.github.io">Kaleb Dean</a> using HTML and CSS</p>
 
       <ul>
-        <li>
-          <p>University of North Carolina at Charlotte</p>
-          <p class='date'>2020 - Present</p>
-        </li>
-        
-        <li>
-          <p>High Point University</p>
-          <p class='date'>2019 - 2020</p>
-        </li> 
+        <li><a target="_blank" href="https://icons8.com/icon/85059/phone">Phone</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+        <li><a target="_blank" href="https://icons8.com/icon/85467/mail">Mail</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+        <li><a target="_blank" href="https://icons8.com/icon/88172/map-pin">Map Pin</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></li>
       </ul>
-    </article>
-
-    <article class='related-experience'>
-      <h2>Projects and Related Experience</h2>
-
-      <section>
-        <h3>Xavier Austin Group <span class='date'>Feb 11, 2022</span></h3>
-        <p>A landing page for Xavier Austin Group LLC, a business leadership consulting company.</p>
-        <a href='https://kalebwithak.github.io/xavieraustingroup/'>https://kalebwithak.github.io/xavieraustingroup/</a>
-      </section>
-
-      <!--<section>
-        <h3>Web Application Design and Development Final Project UNC Charlotte <span class='date'>Dec 10, 2021</span></h3>
-        <p>A website to showcase the Coalition of 100 Black Women at UNC Charlotte.</p>
-        <a href='https://kalebwithak.github.io/100bwuncc/'>https://kalebwithak.github.io/100bwuncc/</a>
-      </section>-->
-
-      <section>
-        <h3>South Meck TSA <span class='date'>Sep 28, 2021</span></h3>
-        <p>An online flier which raised awareness for South Mecklenburg High School’s TSA club.</p>
-        <a href='https://kalebwithak.github.io/southmecktsa/'>https://kalebwithak.github.io/southmecktsa/</a>
-      </section>
-
-      <section>
-        <h3>High Point University - Computer Science Tutor <span class='date'>Spring 2020</span></h3>
-        <p>I assisted students with understanding object oriented programming concepts in order to complete lab assignments and projects.</p>
-      </section>
-
-      <section>
-        <h3>Kravin Kitchen - Intern <span class='date'>Winter 2020</span></h3>
-        <p>Learned about front-end javascript frameworks to help facilitate the creative process during development.</p>
-      </section>
-    </article>
-
-    <article class='employment'>
-      <h2>Part Time Employment</h2>
-      <h3>Sales Associate at Target <span class='date'>August 2021 - Present</span></h3>
-      <ul>
-        <li>Relied upon for expertise in multiple positions</li>
-        <li>Used expertise, leadership, and communication skills to train employees</li>
-      </ul>
-    </article>
-  </main>
-  
-  <footer>
-    <p>This page was built by <a href="https://kalebwithak.github.io">Kaleb Dean</a> using HTML and CSS</p>
-
-    <ul>
-
-      <li><a target="_blank" href="https://icons8.com/icon/85059/phone">Phone</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></li>
-      <li><a target="_blank" href="https://icons8.com/icon/85467/mail">Mail</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></li>
-      <li><a target="_blank" href="https://icons8.com/icon/88172/map-pin">Map Pin</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></li>
-    </ul>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
