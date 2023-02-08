@@ -230,4 +230,8 @@ button:active {
   footer ul {
     margin-left: 10%;
   }
+
+  button {
+    display: hidden;
+  }
 }
