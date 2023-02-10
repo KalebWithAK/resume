@@ -198,9 +198,9 @@ button:active {
 
 @media only screen and (max-width: 768px) {
   body {
-    padding: 1rem;
+    padding: 2vw;
     margin: 0;
-    width: 100vw;
+    width: 96vw;
     box-sizing: border-box;
   }
 
@@ -221,7 +221,6 @@ button:active {
   }
 
   footer p {
-    width: 80%;
     margin: auto;
     text-align: center;
     margin-bottom: 1rem;
@@ -236,5 +235,6 @@ button:active {
     width: 0;
     height: 0;
     margin: 0;
+    visibility: hidden;
   }
 }
