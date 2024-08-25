@@ -157,6 +157,10 @@ section.education h2 {
   grid-row: 1;
 }
 
+section.volunteering {
+  grid-column: 1 / 3;
+}
+
 .date {
   color: #5d5b5b;
   font-size: 14px;
