@@ -36,12 +36,15 @@ header {
 header ul {
   list-style: none;
   padding: 0;
+  float: right;
 }
 
 header ul li {
   margin-left: 0;
   width: 12rem;
   display: flex;
+  text-align: right;
+  width: 250px;
 }
 
 
